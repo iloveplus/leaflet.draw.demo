@@ -1,6 +1,6 @@
 *本功能基于leaflet开发，并对其示例代码做了相应整理，便于增删查改及与后端数据库交互*
 
-
+示例：http://www.iloveplus.cn/leaflet.draw.demo/demo-dist.html
 
 # 关于使用： #
 
