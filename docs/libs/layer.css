@@ -1,0 +1,14 @@
+.leaflet-popup-content{
+    width: auto;
+}
+.layer-box{
+    width: 300px;
+    height: 300px;
+    color: #9a9a9a;
+    font-size: 13px;
+}
+
+.leaflet-tile-container img{
+     width: auto!important;
+     height: auto!important;
+ }
