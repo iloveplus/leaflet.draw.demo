@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>leaflet.draw.demo</title>
-    <meta charset="utf-8">
-    <script src="docs/libs/dist.min.js"></script>
-    <link rel="stylesheet" href="docs/libs/dist.css"/>
-</head>
-<body>
-<div id="map" style="width: 800px; height: 600px; border: 1px solid #ccc"></div>
-<button onclick="showDesc()">显示</button>
+*本功能基于leaflet开发，并对其示例代码做了相应整理，便于增删查改及与后端数据库交互*
 
-<script>
-    /*打开相应弹出框*/
+
+
+# 关于使用： #
+
+        /*打开相应弹出框*/
     function showDesc() {
         var id=saveData[0].id;
         map._layers[id].openPopup();
@@ -230,6 +223,14 @@
             });
         })
     }();
-</script>
-</body>
-</html>
+
+# 版权申明： #
+
+本功能基于leaflet二次开发，仅为个人学习使用，如商用请遵循leaflet相关版权规则。
+
+# 参考： #
+
+1. http://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html
+2. http://blog.mastermaps.com/2013/06/showing-zoomify-images-with-leaflet.html
+3. https://github.com/asfez/CsZoomify
+4. http://openlayers.org/
